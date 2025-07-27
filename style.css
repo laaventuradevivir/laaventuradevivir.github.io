@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Caja de habilidades */
+.caja-habilidades {
+  background-color: #1e1e1e;
+  border: 2px solid #444;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Botones de opciones */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+nav li {
+  margin: 0.5rem 0;
+}
+
+nav a {
+  display: inline-block;
+  background-color: #222;
+  color: #90caf9;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: #333;
+}
+
+/* Botones generales (Buscar trabajo, Ir a trabajar) */
+button {
+  background-color: #222;
+  color: #90caf9;
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  margin: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* Opciones de trabajo */
+#opciones-trabajo {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#opciones-trabajo button {
+  width: 100%;
+  max-width: 300px;
+}

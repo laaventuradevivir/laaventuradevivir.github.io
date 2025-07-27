@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La aventura de vivir</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+  <header>
+    <h1>La aventura de vivir</h1>
+  </header>
+
+<header>
+  <h4 id="comentario">Naciste en una familia en una gran casa lujosa, ¿qué harás a continuación?</h4>
+</header>
+<br>
+
+  <main>
+<section>
+  <h3 id="edad">Edad: 1</h3>
+  <h3 id="profesion">Desempleada/o</h3>
+  <h3 id="ingresos">Ingresos anuales: 0 $</h3>
+  <h3 id="ahorros">Ahorros: 0 $</h3>
+
+  <div class="caja-habilidades">
+    <h3>Habilidades:</h3>
+    <h4 id="ingenio">Ingenio: 0</h4>
+    <h4 id="social">Social: 0</h4>
+    <h4 id="creatividad">Creatividad: 0</h4>
+  </div>
+
+  <nav>
+    <ul>
+    <li><a href="#" id="opcion-ingenio" onclick="elegirOpcion('ingenio')">Jugar con rastis</a></li>
+    <li><a href="#" id="opcion-social" onclick="elegirOpcion('social')">Jugar con muñecos</a></li>
+    <li><a href="#" id="opcion-creatividad" onclick="elegirOpcion('creatividad')">Contemplar los alrededores</a></li>
+  </ul>
+</nav>
+
+<div id="zona-trabajo" style="display: none;">
+  <button onclick="mostrarOpcionesTrabajo()">Buscar trabajo</button>
+  <div id="opciones-trabajo" style="display: none;"></div>
+</div>
+
+<div id="zona-trabajar" style="display: none;">
+  <button onclick="irATrabajar()">Ir a trabajar</button>
+</div>
+
+    </ul>
+  </nav>
+</section>
+
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Lucia Farinetti - Todos los izquierdos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
